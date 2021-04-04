@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 485982925}
   - component: {fileID: 485982924}
   - component: {fileID: 485982923}
+  - component: {fileID: 485982922}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -217,6 +218,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &485982922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485982921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f269e6aba1dcba459dc7a6b6d26c3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.2
+  target: {fileID: 535353595}
 --- !u!81 &485982923
 AudioListener:
   m_ObjectHideFlags: 0
@@ -275,13 +290,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485982921}
-  m_LocalRotation: {x: 0.06104851, y: -0, z: -0, w: 0.99813485}
+  m_LocalRotation: {x: 0.111069754, y: -0, z: -0, w: 0.9938126}
   m_LocalPosition: {x: -0.163, y: 2.309, z: -5.166}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 535353595}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.754, y: 0, z: 0}
 --- !u!1 &535353591
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +312,7 @@ GameObject:
   - component: {fileID: 535353596}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,7 +387,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535353591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.45}
+  m_LocalPosition: {x: 0, y: 0.49, z: 5.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 485982925}
@@ -391,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4875a1a8eef97df4983b3319682cb672, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitvity: 0
+  speed: 1.5
 --- !u!1 &1602062082
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602062082}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 4.85, y: 67.87, z: -5.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
